@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    padding: 0 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+header a {
+    color: gray
+}
+
+main {
+    position: relative;
+    top: 35px;
+}
+
+#mission {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*11fcnn8*_ga*NTQ4MjAwOTU5NC4xNjcyMDI5MDQ0*_ga_3LRZM6TM9L*MTY3OTE1OTE1My43OC4xLjE2NzkxNTkyMDYuMC4wLjA.);
+    background-position: center;
+    display: flex;
+    margin: 40px auto;
+}
+
+#mission-text {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#middle {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#mid-text {
+    max-width: 1000px;
+    background-position: center;
+    margin: auto;
+}
+
+#middle-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#middle-images img {
+    width: 300px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#location {
+    max-width: 1200px;
+    height: 500px;
+    background-position: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*11fcnn8*_ga*NTQ4MjAwOTU5NC4xNjcyMDI5MDQ0*_ga_3LRZM6TM9L*MTY3OTE1OTE1My43OC4xLjE2NzkxNTkyMDYuMC4wLjA.);
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#location-boxes {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    position: relative;
+}
+
+#address {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    margin: 1%;
+    margin-top: 95px;
+}
+
+#location h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+#contact {
+    text-align: center;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
